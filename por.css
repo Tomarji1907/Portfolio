@@ -2793,3 +2793,11 @@ footer > span {
     transform: none;
   }
 }
+
+/* Phone view: robot legs partially visible */
+@media (max-width: 600px) {
+  .studio .seated-robot .leg {
+    height: 50% !important;
+    overflow: hidden;
+  }
+}
